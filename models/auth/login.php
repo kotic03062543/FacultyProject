@@ -16,6 +16,15 @@ try {
     $fname = $_POST['fname'];
     $lname = $_POST['lname'];
 
+    // เช็คค่าว่าง
+    if(empty($fname)) {
+      echo json_encode(array('success' => false, 'message' => 'กรุณากรอกชื่อผู้ใช้งาน'));
+        exit();
+    }else if(empty($lname)){
+        echo json_encode(array('success' => false, 'message' => 'กรุณากรอกรหัสผ่าน'));
+        exit();
+    }
+
     // ค้นหาผู้ใช้จากฐานข้อมูล
     $query = "SELECT * FROM user WHERE lname = :lname AND fname = :fname";
     $stmt = $conn->prepare($query);
@@ -25,21 +34,20 @@ try {
     $user = $stmt->fetch(PDO::FETCH_ASSOC);
 
     // ตรวจสอบรหัสผ่าน
-    if($user['lname'] == $lname) {
+    if($user) {
       // เข้าสู่ระบบสำเร็จ
-      echo json_encode(array('success' => true));
-    } else {
-        $response = array('success' => false, 'message' => 'ชื่อผู้ใช้หรือรหัสผ่านไม่ถูกต้อง');
-        echo json_encode($response);
-    };
+      if($user['lname'] == $lname) {
+        // เข้าสู่ระบบสำเร็จ
+        echo json_encode(array('success' => true));
+      } 
+    } else{
+      // ไม่พบผู้ใช้ในฐานข้อมูล
+      echo json_encode(array('success' => false, 'message' => 'ชื่อผู้ใช้หรือรหัสผ่านไม่ถูกต้อง'));
+    }
   }
 } catch(PDOException $e) {
     // แสดงข้อผิดพลาด
-    $response = array('success' => false, 'message' => 'เกิดข้อผิดพลาด: ' . $e->getMessage());
-    // ส่งค่า JSON กลับไปยังไคลเอนต์
-    // ส่งค่า JSON กลับไปยังไคลเอนต์
-    header('Content-Type: application/json');
-    echo json_encode($response);
+    echo json_encode(array('success' => false, 'message' => $e->getMessage()));
 
 }
 
