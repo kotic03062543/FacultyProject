@@ -172,23 +172,30 @@
 .card-activities:hover {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 15px;
 }
-.bg-cnlernning{
+
+.bg-cnlernning {
     background-color: var(--background-color);
 }
+
 /* .bg-cnlernning button{
     margin-right: 110px;
 } */
 .card-text {
-    line-height: 1.5em; /* กำหนดความสูงของบรรทัดเท่ากัน 1.5 เท่าขนาดตัวอักษร */
-    max-height: calc(1.5em * 3); /* กำหนดความสูงสูงสุดเท่ากับ 1.5em คูณกับจำนวนบรรทัดที่ต้องการแสดง */
+    line-height: 1.5em;
+    /* กำหนดความสูงของบรรทัดเท่ากัน 1.5 เท่าขนาดตัวอักษร */
+    max-height: calc(1.5em * 3);
+    /* กำหนดความสูงสูงสุดเท่ากับ 1.5em คูณกับจำนวนบรรทัดที่ต้องการแสดง */
     text-overflow: ellipsis;
-    overflow: hidden; /* ปิดการแสดงเนื้อหาที่เกิน 5 บรรทัด */
+    overflow: hidden;
+    /* ปิดการแสดงเนื้อหาที่เกิน 5 บรรทัด */
 }
-.card .text-date{
+
+.card .text-date {
     font-size: 14px;
     color: gray;
 }
-.card-activities .card-body{
+
+.card-activities .card-body {
     padding: 1rem 1rem 0 1rem;
 }
 
@@ -206,4 +213,51 @@
 
 .card-title i {
     color: var(--second-color);
+}
+
+
+/*=============================================== */
+/*============== หน้า LOGIN CSS ================== */
+/*=============================================== */
+
+#username,
+#password {
+    background-color: var(--puple-low);
+}
+
+#login .container #login-row #login-column #login-box {
+    margin: 0 auto;
+    margin-top: 50px;
+    max-width: 500px;
+    border: 5px;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+#login .container #login-row #login-column #login-box #login-form {
+    padding: 20px;
+}
+
+#login .container #login-row #login-column #login-box #login-form #register-link {
+    margin-top: -85px;
+}
+
+#login img {
+    max-width: 300px;
+}
+
+.btn-block {
+    background-color: var(--second-color);
+}
+
+.password-wrapper {
+    position: relative;
+}
+
+.password-toggle-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
 }

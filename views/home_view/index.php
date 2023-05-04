@@ -48,10 +48,12 @@
                     </li>
                 </ul>
                 <!-- ปุ่มเข้าสู่ระบบ -->
-                <button class="btn btn-login ms-auto" type="button">ลงชื่อเข้าใช้</button>
+                <button type="button" class="btn btn-login ms-auto show-modal" data-bs-toggle="modal" data-bs-target="#exampleModal">ลงชื่อเข้าใช้</button>  
             </div>
         </div>
     </nav>
+    <!-- เรียกใช้ Modal -->
+    <?php include_once('../auth/login_form.php'); ?>
 
     <!-- img card -->
     <div class="position-relative img-card">
@@ -182,12 +184,12 @@
                         ที่ทำหน้าที่สอนวิจัยและบริการวิชาการให้เป็นไปตามวิสัยทัศน์และพันธกิจของคณะซึ่งได้รับการจัดตั้งเป็นหน่วยงานภายในของมหาวิทยาลัยสงขลานครินทร์ตามมติที่ประชุมสภามหาวิทยาลัยสงขลานครินทร์ในคราวประชุมครั้งที่
                         306 4/2551 เมื่อวันที่ 31 พฤษภาคม 2551 ...</p>
                     <p class="card-text">
-                        <div class="text-muted">
-                            <button class="btn btn-name">
-                                อ่านเพิ่มเติม
-                                <i class="bi bi-arrow-right"></i>
-                            </button>
-                        </div>
+                    <div class="text-muted">
+                        <button class="btn btn-name">
+                            อ่านเพิ่มเติม
+                            <i class="bi bi-arrow-right"></i>
+                        </button>
+                    </div>
                     </p>
                 </div>
             </div>
@@ -325,6 +327,8 @@
 
     <!-- นำเข้าไฟล์ JavaScript ของ Bootstrap 5 -->
     <script src="../utility/bootstrap5/js/bootstrap.min.js"></script>
+
+    <script src="../../controllers/auth/login.js"></script>
 </body>
 
 </html>
