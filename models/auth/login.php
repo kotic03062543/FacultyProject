@@ -30,11 +30,8 @@ try {
       echo json_encode(array('success' => true));
     } else {
         $response = array('success' => false, 'message' => 'ชื่อผู้ใช้หรือรหัสผ่านไม่ถูกต้อง');
-            // ส่งค่า JSON กลับไปยังไคลเอนต์
-    header('Content-Type: application/json');
-    echo json_encode($response);
-    }
-;
+        echo json_encode($response);
+    };
   }
 } catch(PDOException $e) {
     // แสดงข้อผิดพลาด
