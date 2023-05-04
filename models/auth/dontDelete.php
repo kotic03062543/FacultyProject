@@ -36,11 +36,9 @@ try {
 } catch(PDOException $e) {
     // แสดงข้อผิดพลาด
     echo json_encode(array('success' => false, 'message' => $e->getMessage()));
-
 }
 
 ?>
-
 
 
 <!-- ////ได้//// -->

@@ -35,16 +35,19 @@
                         <a class="nav-link active" aria-current="page" href="#">หน้าหลัก</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">ศูนย์ข้อมูลการเรียนรู้</a>
+                        <a class="nav-link" href="#lernning_center">ศูนย์ข้อมูลการเรียนรู้</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">เกี่ยวกับคณะ</a>
+                        <a class="nav-link" href="#about_fac">เกี่ยวกับคณะ</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">ข่าว</a>
+                        <a class="nav-link" href="#person">บุคคลากร</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">เกี่ยวกับเรา</a>
+                        <a class="nav-link" href="#community">ข่าว</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about_psu">เกี่ยวกับเรา</a>
                     </li>
                 </ul>
                 <!-- ปุ่มเข้าสู่ระบบ -->
@@ -78,7 +81,7 @@
     </div>
 
     <!-- Card menu ศูนย์ข้อมูลการเรียนรู้ -->
-    <div class="container-fluid bg-cnf">
+    <div class="container-fluid bg-cnf" id="lernning_center">
         <h2 class="container text-menusix">ศูนย์ข้อมูลการเรียนรู้</h2>
         <div class="container overflow-hidden card-sixmenu">
             <div class="row gy-5">
@@ -169,7 +172,7 @@
     </div>
 
     <!-- เกี่ยวกับคณะของเรา -->
-    <div class="card card-about-scit container">
+    <div class="card card-about-scit container" id="about_fac">
         <div class="row g-0 ">
             <div class="col-md-5">
                 <img src="../../assets/icons/scit-logo.png" class="img-fluid rounded-start" alt="...">
@@ -197,7 +200,7 @@
     </div>
 
     <!-- บุคคลากร -->
-    <div class="container-fluid container-person">
+    <div class="container-fluid container-person" id="person">
         <div class="container px-4">
             <div class="row gx-5">
                 <div class="col">
@@ -229,7 +232,7 @@
     </div>
 
     <!-- ข่าวประชาสัมพันธ์ -->
-    <div class="bg-cnlernning">
+    <div class="bg-cnlernning" id="community">
         <div class="d-flex justify-content-between container mt-3">
             <h2 class="text-menusix">ศูนย์ข้อมูลการเรียนรู้</h2>
             <div class="my-auto">
@@ -297,7 +300,7 @@
     </div>
 
     <!-- เกี่ยวกับมหาลัย -->
-    <div class="container-fluid container-about-psu">
+    <div class="container-fluid container-about-psu" id="about_psu">
         <div class="card card-about-psu container">
             <div class="row g-0 ">
                 <div class="col-md-6 my-auto">
