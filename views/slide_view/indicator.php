@@ -30,20 +30,34 @@
         </div>
         <p>แสดงรายการข้อมูลและตัวชี้วัดทั้งหมดของคณะฯ ซึ่งดึงมาจากฐานข้อมูลที่เก็บรวบรวมไว้ ณ ปัจจุบัน</p>
         <!-- สร้าง 2 ปุ่ม -->
-        <div class="box-data-header d-flex">
+        <div class="box-data-header d-flex mb-3">
             <div class="box-data-header-right me-3">
                 <a href="indicator_search.php" class="btn btn-search">
-                    <i class="fas fa-search"></i>
+                    <i class="fas fa-search me-2"></i>
                     ค้นหาข้อมูล
                 </a>
             </div>
             <div class="box-data-header-left ">
                 <a href="indicator_add.php" class="btn btn-fillter">
-                    <i class="fas fa-plus-circle"></i>
-                    เพิ่มข้อมูล
+                    <i class="fas fa-filter me-2"></i>
+                    ตัวกรอง
                 </a>
             </div>
+        </div>
+        <!-- // สร้างตาราง -->
+        <div class="box-data-table table-responsive">
+            <table class="table table-bordered" id="table-indicator">
+                <thead>
+                    <tr>
+                        <th scope="col">ลำดับ</th>
+                        <th scope="col">ชื่อตัวชี้วัด</th>
+                        <th scope="col">รายละเอียด</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
 
+            </table>
         </div>
     </div>
 
@@ -51,6 +65,7 @@
 
     </section>
 
+    <script src="../../controllers/indicator/IndicatorController.js"></script>
     <script src="../utility/bootstrap5/js/bootstrap.min.js"></script>
 </body>
 
