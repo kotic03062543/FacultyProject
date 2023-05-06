@@ -268,3 +268,7 @@ img {
     justify-content: center;
     align-items: center;
 }
+
+.box-data-body{
+    margin: 20px;
+}

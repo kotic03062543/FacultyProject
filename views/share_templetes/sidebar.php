@@ -185,8 +185,6 @@
         </div>
 
 
-    </section>
-
     <script src="../views/utility/bootstrap5/js/bootstrap.min.js"></script>
 
     <script>
