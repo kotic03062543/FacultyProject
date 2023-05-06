@@ -22,21 +22,34 @@
     <?php
         include "../share_templetes/sidebar.php";
     ?>
-    
+
 
     <div class="box-data-body">
         <div class="home_content">
             <div class="text">ข้อมูลตัวชี้วัด</div>
         </div>
+        <p>แสดงรายการข้อมูลและตัวชี้วัดทั้งหมดของคณะฯ ซึ่งดึงมาจากฐานข้อมูลที่เก็บรวบรวมไว้ ณ ปัจจุบัน</p>
+        <!-- สร้าง 2 ปุ่ม -->
+        <div class="box-data-header d-flex">
+            <div class="box-data-header-right me-3">
+                <a href="indicator_search.php" class="btn btn-search">
+                    <i class="fas fa-search"></i>
+                    ค้นหาข้อมูล
+                </a>
+            </div>
+            <div class="box-data-header-left ">
+                <a href="indicator_add.php" class="btn btn-fillter">
+                    <i class="fas fa-plus-circle"></i>
+                    เพิ่มข้อมูล
+                </a>
+            </div>
+
+        </div>
     </div>
-    
+
 
 
     </section>
-
-    <div class="home_content">
-        <div class="text">ข้อมูลตัวชี้วัด</div>
-    </div>
 
     <script src="../utility/bootstrap5/js/bootstrap.min.js"></script>
 </body>
