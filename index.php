@@ -16,11 +16,15 @@
 </head>
 
 <body>
+<<<<<<< HEAD
 
     <?php
         include_once "template/sidebar.php";
         ?>
 
+=======
+   
+>>>>>>> main
     <script src="views/utility/bootstrap5/js/bootstrap.min.js"></script>
 </body>
 
