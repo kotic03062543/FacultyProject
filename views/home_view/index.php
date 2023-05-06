@@ -51,12 +51,10 @@
                     </li>
                 </ul>
                 <!-- ปุ่มเข้าสู่ระบบ -->
-                <button type="button" class="btn btn-login ms-auto show-modal" data-bs-toggle="modal" data-bs-target="#exampleModal">ลงชื่อเข้าใช้</button>  
+                <a class="ms-auto" href="../auth/login_form.php"><button type="button" class="btn btn-login">ลงชื่อเข้าใช้</button></a>
             </div>
         </div>
     </nav>
-    <!-- เรียกใช้ Modal -->
-    <?php include_once('../auth/login_form.php'); ?>
 
     <!-- img card -->
     <div class="position-relative img-card">
@@ -234,7 +232,8 @@
     <!-- ข่าวประชาสัมพันธ์ -->
     <div class="bg-cnlernning" id="community">
         <div class="d-flex justify-content-between container mt-3">
-            <h2 class="text-menusix">ศูนย์ข้อมูลการเรียนรู้</h2>
+            <h2 class="text-menusix">ข่าวประชาสัมพันธ์</h2>
+            
             <div class="my-auto">
                 <button class="btn btn-name">
                     อ่านเพิ่มเติม
@@ -331,7 +330,6 @@
     <!-- นำเข้าไฟล์ JavaScript ของ Bootstrap 5 -->
     <script src="../utility/bootstrap5/js/bootstrap.min.js"></script>
 
-    <script src="../../controllers/auth/login.js"></script>
 </body>
 
 </html>

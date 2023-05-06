@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="views/utility/theme.css">
-    <link rel="stylesheet" href="views/utility/bootstrap5/css/bootstrap.min.css">
-    <link rel="stylesheet" href="views/utility/styles/css_sidebar.css">
+    <link rel="stylesheet" href="../utility/theme.css">
+    <link rel="stylesheet" href="../utility/bootstrap5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../utility/styles/css_sidebar.css">
 
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <script src="https://code.jquery.com/jquery-3.4.1.js%22%3E"></script>
@@ -18,10 +18,10 @@
 <body>
 
     <?php
-        include_once "template/sidebar.php";
-        ?>
+        include "../share_templetes/sidebar.php";
+    ?>
 
-    <script src="views/utility/bootstrap5/js/bootstrap.min.js"></script>
+    <script src="../utility/bootstrap5/js/bootstrap.min.js"></script>
 </body>
 
 </html>
