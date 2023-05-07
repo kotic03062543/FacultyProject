@@ -29,7 +29,7 @@
                 </ul>
             </li>
             <li>
-                <div class="iocn-link">
+                <div class="icon-link">
                     <a href="#">
                         <i class='bx bx-book-open'></i>
                         <span class="link_name">Home</span>
@@ -37,7 +37,7 @@
 
                 </div>
                 <ul class="sub-menu">
-                    <li><a class="link_name" href="#">Catrgory</a></li>
+                    <li><a class="link_name" href="#">Category</a></li>
                     <li><a href="#">Web Design</a></li>
                     <li><a href="#">Card Design</a></li>
                     <li><a href="#">Login From</a></li>
@@ -45,7 +45,7 @@
 
             </li>
             <li>
-                <div class="iocn-link">
+                <div class="icon-link">
                     <a href="#">
                         <i class='bx bxs-book-content'></i>
                         <span class="link_name">Home</span>
@@ -53,7 +53,7 @@
                     <i class='bx bx-chevron-down arrow'></i>
                 </div>
                 <ul class="sub-menu">
-                    <li><a class="link_name" href="#">Catrgory</a></li>
+                    <li><a class="link_name" href="#">Category</a></li>
                     <li><a href="#">Web Design</a></li>
                     <li><a href="#">Card Design</a></li>
                     <li><a href="#">Login From</a></li>
@@ -61,7 +61,7 @@
             </li>
 
             <li>
-                <div class="iocn-link">
+                <div class="icon-link">
                     <a href="#">
                         <i class='bx bxs-graduation'></i>
                         <span class="link_name">Home</span>
@@ -69,7 +69,7 @@
                     <i class='bx bx-chevron-down arrow'></i>
                 </div>
                 <ul class="sub-menu">
-                    <li><a class="link_name" href="#">Catrgory</a></li>
+                    <li><a class="link_name" href="#">Category</a></li>
                     <li><a href="#">Web Design</a></li>
                     <li><a href="#">Card Design</a></li>
                     <li><a href="#">Login From</a></li>
@@ -78,7 +78,7 @@
             </li>
 
             <li>
-                <div class="iocn-link">
+                <div class="icon-link">
                     <a href="#">
                         <i class='bx bx-book-open'></i>
                         <span class="link_name">Home</span>
@@ -86,7 +86,7 @@
                     <i class='bx bx-chevron-down arrow'></i>
                 </div>
                 <ul class="sub-menu">
-                    <li><a class="link_name" href="#">Catrgory</a></li>
+                    <li><a class="link_name" href="#">Category</a></li>
                     <li><a href="#">Web Design</a></li>
                     <li><a href="#">Card Design</a></li>
                     <li><a href="#">Login From</a></li>
@@ -94,7 +94,7 @@
 
             </li>
             <li>
-                <div class="iocn-link">
+                <div class="icon-link">
                     <a href="#">
                         <i class='bx bx-plug'></i>
                         <span class="link_name">Home</span>
@@ -138,7 +138,7 @@
                     <span class="link_name">History</span>
                 </a>
                 <ul class="sub-menu blank">
-                    <li><a class="link_name" href="#">Settin</a></li>
+                    <li><a class="link_name" href="#">Setting</a></li>
 
                 </ul>
             </li>
@@ -149,31 +149,31 @@
             <i class='bx bx-menu'></i>
             <ul class="nav-link2">
                 <li>
-                    <div class="iocn-link">
+                    <div class="icon-link">
                         <span class="link_name">เพิ่มข้อมูลการจัดการเรียนรู้</span>
                         <i class='bx bx-chevron-down arrow '></i>
                     </div>
                     <ul class="sub-menu">
-                        <li><a class="link_name" href="#">Catrgory</a></li>
+                        <li><a class="link_name" href="#">Category</a></li>
                         <li><a href="#">Web Design</a></li>
                         <li><a href="#">Card Design</a></li>
                         <li><a href="#">Login From</a></li>
                     </ul>
                 </li>
                 <li>
-                    <div class="iocn-link">
+                    <div class="icon-link">
                         <span class="link_name">จัดการข้อมูลตัวชี้วัด</span>
                         <i class='bx bx-chevron-down arrow'></i>
                     </div>
                     <ul class="sub-menu">
-                        <li><a class="link_name" href="#">Catrgory</a></li>
+                        <li><a class="link_name" href="#">Category</a></li>
                         <li><a href="#">Web Design</a></li>
                         <li><a href="#">Card Design</a></li>
                         <li><a href="#">Login From</a></li>
                     </ul>
                 </li>
                 <li>
-                    <div class="iocn-link">
+                    <div class="icon-link">
                         <span class="link_name">Admin</span>
                         <i class='bx bxs-user-circle'></i>
                     </div>

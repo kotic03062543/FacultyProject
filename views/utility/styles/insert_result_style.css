@@ -1,0 +1,180 @@
+:root {
+    /* colors */
+    --background-color: #ffffff;
+    --second-color: #540375;
+    --purple-low: rgba(229, 221, 247, 0.3);
+    --blue-color: #283747;
+    --Highlight-color: #FFBF00;
+    --Highlight-yellow: #F5E687;
+    --input-color: #A2A6AA;
+    /* font */
+    --font-family: 'IBM Plex Sans Thai', sans-serif;
+    --header1: 32px;
+    --header2: 24px;
+    --header3: 18px;
+    --paragraph: 16px;
+    --rd: 10px;
+    --pm10px: 10px;
+    --pm20px: 20px;
+    --pm30px: 30px;
+    --pm50px: 50px;
+    /* showdow */
+    --showdow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+/*=============================================== */
+/*============== หน้าเพิ่มผลลัพธ์ ============ */
+/*=============================================== */
+
+.box-data-body {
+    background-color: var(--background-color);
+    padding-top: 20px;
+}
+
+.insert-results {
+    margin-left: var(--pm30px);
+    font-size: var(--header1);
+    font-weight: 600;
+    color: var(--blue-color);
+    line-height: 130%;
+    position: absolute;
+}
+
+.select-indicator {
+    margin-top: 50px;
+}
+
+.years,
+.target,
+.results,
+.evidence {
+    padding-top: 15px;
+}
+
+.field {
+    font-weight: 600;
+    padding: 0 10px 0 10px;
+    margin-left: var(--pm30px);
+    height: 26px;
+    left: 407px;
+    top: 173px;
+    width: 95%;
+    font-size: var(--paragraph);
+    line-height: 130%;
+    color: #000000;
+    border: 1px solid #5B5B5B;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.field-one {
+    font-weight: 600;
+    padding: 0 10px 0 10px;
+    margin-left: var(--pm30px);
+    height: 26px;
+    left: 407px;
+    top: 173px;
+    width: 90%;
+    font-size: var(--paragraph);
+    line-height: 130%;
+    color: #000000;
+    border: 1px solid #5B5B5B;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.btn-one {
+    margin-right: 20px;
+    display: inline-flex;
+    width: 68px;
+    height: 27px;
+    background: #283747;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+}
+
+.btn-select,
+.btn-two {
+    display: inline-flex;
+    width: 68px;
+    height: 27px;
+    background: #283747;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+}
+
+.btn-select:hover,
+.btn-one:hover,
+.btn-two:hover {
+    background: #111c27;
+}
+
+.btn-select:active,
+.btn-one:active,
+.btn-two:active {
+    background: #0f1a24;
+}
+
+.text-select {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 14px;
+    color: white;
+    height: 100%;
+}
+
+.text-cancel,
+.text-save {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 11px;
+    color: white;
+    height: 100%;
+}
+
+.name-evidence-file {
+    padding-top: 20px;
+    padding-left: 40px;
+    font-size: var(--paragraph);
+    font-weight: 600;
+    color: var(--blue-color);
+    line-height: 130%;
+}
+
+.btn-select-file {
+    display: inline-block;
+    width: 100px;
+    height: 27px;
+    background: #D9D9D9;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+}
+
+.btn-select-file:hover {
+    background: #cccccc;
+}
+
+.btn-select:active {
+    background: #dbdbdb;
+}
+
+.text-select-file {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 14px;
+    color: #A2A6AA;
+    height: 100%;
+    font-weight: 550;
+}
