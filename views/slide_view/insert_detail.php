@@ -32,7 +32,7 @@
 
     <div class="box-data-body">
         <div class="home_content">
-            <div class="insert-indicator">เพิ่มตัวชี้วัด</div>
+            <div class="insert-indicator">เพิ่มรายละเอียดตัวชี้วัด</div>
         </div>
         <form action="">
         <div class="input-data-body">
