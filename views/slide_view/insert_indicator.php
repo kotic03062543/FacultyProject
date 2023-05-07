@@ -16,6 +16,12 @@
     <script src="https://code.jquery.com/jquery-3.4.1.js%22%3E"></script>
     <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
 </head>
+<style>
+.home-section{
+    height: 100vh;
+}
+
+</style>
 
 <body>
 
