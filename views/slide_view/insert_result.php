@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="../utility/bootstrap5/css/bootstrap.min.css">
     <link rel="stylesheet" href="../utility/styles/css_sidebar.css">
 
-    <link rel="stylesheet" href="../utility/styles/insert_indicator_style.css">
+    <link rel="stylesheet" href="../utility/styles/insert_result_style.css">
 
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <script src="https://code.jquery.com/jquery-3.4.1.js%22%3E"></script>

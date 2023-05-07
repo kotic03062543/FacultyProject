@@ -203,7 +203,7 @@ input:checked+.slider::before {
 }
 
 /* .btn-body {
-    padding-right: 50px;
+    float: inline-end;
 } */
 
 .btn-one {
