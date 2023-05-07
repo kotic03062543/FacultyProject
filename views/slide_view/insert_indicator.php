@@ -7,20 +7,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../utility/theme.css">
-    <link rel="stylesheet" href="../utility/bootstrap5/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="../utility/bootstrap5/css/bootstrap.min.css"> -->
     <link rel="stylesheet" href="../utility/styles/css_sidebar.css">
 
     <link rel="stylesheet" href="../utility/styles/insert_indicator_style.css">
 
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <script src="https://code.jquery.com/jquery-3.4.1.js%22%3E"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.4.1.js%22%3E"></script> -->
     <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
 </head>
 <style>
-.home-section{
+.home-section {
     height: 100vh;
 }
-
 </style>
 
 <body>
@@ -35,18 +34,29 @@
             <div class="insert-indicator">เพิ่มตัวชี้วัด</div>
         </div>
 
-        <div class="input-data-body">
-            <div class="name-indicator">
-                <input class="field" type="text" id="name" name="name" placeholder="ชื่อข้อมูล/ตัวชี้วัด:">
+        <form id="form-insert-indicator">
+            <div class="input-data-body">
+                <div class="name-indicator">
+                    <input class="field" type="text" id="name" name="name" placeholder="ชื่อข้อมูล/ตัวชี้วัด:">
+                </div>
+                <div class="unit">
+                    <input class="field" type="text" id="unit" name="unit" placeholder="หน่วยวัด:">
+                </div>
+                <div class="description">
+                    <textarea class="field" type="text" id="description" name="description"
+                        placeholder="คำอธิบาย:"></textarea>
+                </div>
             </div>
-            <div class="unit">
-                <input class="field" type="text" id="unit" name="unit" placeholder="หน่วยวัด:">
+            <div class="btn-body text-end">
+                <!-- <button class="btn-one" type="button">
+                    <label class="text-cancel">ยกเลิก</label>
+                </button> -->
+                <input type="submit" class="btn-one" value="บันทึก">
+                <button class="btn-two" type="submit">
+                    <label class="text-save">บันทึก</label>
+                </button>
             </div>
-            <div class="description">
-                <textarea class="field" type="text" id="description" name="description"
-                    placeholder="คำอธิบาย:"></textarea>
-            </div>
-        </div>
+        </form>
 
         <div class="group-indicator-body">
             <div class="line-checkbox">
@@ -87,36 +97,27 @@
             </div>
         </div>
 
-        <div class="btn-body text-end">
-            <button class="btn-one" type="button">
-                <label class="text-cancel">ยกเลิก</label>
-            </button>
-            <button class="btn-two" type="button">
-                <label class="text-save">บันทึก</label>
-            </button>
-        </div>
-
     </div>
-
-
-
 
 
     </section>
 
-    <script src="../utility/bootstrap5/js/bootstrap.min.js"></script>
+    <script src="../../controllers/indicator/insertIndicatorController.js"></script>
+
+    <!-- <script src="../utility/bootstrap5/js/bootstrap.min.js"></script> -->
+
     <script>
-        function toggleText() {
-            var textshow = document.querySelector('.textshow');
-            var texthide = document.querySelector('.texthide');
-            if (texthide.style.display === 'none') {
-                texthide.style.display = 'block';
-                textshow.style.display = 'none';
-            } else {
-                texthide.style.display = 'none';
-                textshow.style.display = 'block';
-            }
+    function toggleText() {
+        var textshow = document.querySelector('.textshow');
+        var texthide = document.querySelector('.texthide');
+        if (texthide.style.display === 'none') {
+            texthide.style.display = 'block';
+            textshow.style.display = 'none';
+        } else {
+            texthide.style.display = 'none';
+            textshow.style.display = 'block';
         }
+    }
     </script>
 </body>
 
