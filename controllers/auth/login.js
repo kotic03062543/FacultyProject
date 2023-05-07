@@ -18,7 +18,7 @@ loginForm.addEventListener('submit', async function (event) {
         if (data.success) {
             // เข้าสู่ระบบสำเร็จ
             alert('เข้าสู่ระบบสำเร็จ');
-            window.open('../../views/home_view/index.php', '_self');
+            window.open('../../views/slide_view/indicator.php', '_self');
         } else {
             // เข้าสู่ระบบไม่สำเร็จ
             alert(data.message);

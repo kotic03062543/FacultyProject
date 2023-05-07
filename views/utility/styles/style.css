@@ -262,7 +262,8 @@ img {
     transform: translateY(-50%);
     cursor: pointer;
 }
-.img-scit-logo{
+
+.img-scit-logo {
     width: 100%;
     height: 100%;
     display: flex;
@@ -273,11 +274,11 @@ img {
 /*=============================================== */
 /*============== หน้าชี้วัด CSS ================== */
 /*=============================================== */
-.box-data-body{
+.box-data-body {
     margin: 20px;
 }
 
-.box-data-body .home_content{
+.box-data-body .home_content {
     font-size: var(--header2);
     font-weight: bold;
     color: var(--blue-color);
@@ -292,8 +293,24 @@ img {
     font-size: var(--paragraph);
     transition: 0.3s ease-in;
 }
+
 .box-data-header .btn:hover {
     color: black;
     background-color: var(--puple-low);
     box-shadow: var(--showdow);
 }
+
+.box-data-table thead{
+    background-color: var(--blue-color);
+    color: var(--background-color); 
+}
+.box-data-table table{
+    border: 1px solid var(--blue-color);
+}
+
+td.icon {
+    cursor: pointer;
+}
+
+
+
