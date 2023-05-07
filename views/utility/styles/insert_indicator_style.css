@@ -202,9 +202,9 @@ input:checked+.slider::before {
     transform: translateX(10px)
 }
 
-.btn-body {
+/* .btn-body {
     padding-right: 50px;
-}
+} */
 
 .btn-one {
     margin-right: 20px;
@@ -235,12 +235,12 @@ input:checked+.slider::before {
 
 .btn-one:hover,
 .btn-two:hover {
-    background: #1c2c3d;
+    background: #111c27;
 }
 
 .btn-one:active,
 .btn-two:active {
-    background: #172533;
+    background: #0f1a24;
 }
 
 .text-cancel,

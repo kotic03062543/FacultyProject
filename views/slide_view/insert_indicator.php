@@ -82,11 +82,11 @@
         </div>
 
         <div class="btn-body">
-            <button class="btn-one float-end" type="button">
-                <label class="text-save">บันทึก</label>
-            </button>
-            <button class="btn-two float-end" type="button">
+            <button class="btn-one" type="button">
                 <label class="text-cancel">ยกเลิก</label>
+            </button>
+            <button class="btn-two" type="button">
+                <label class="text-save">บันทึก</label>
             </button>
         </div>
 
