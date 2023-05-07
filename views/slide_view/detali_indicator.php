@@ -8,14 +8,9 @@
     <title>Document</title>
     <link rel="stylesheet" href="../utility/theme.css">
     <link rel="stylesheet" href="../utility/bootstrap5/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../utility/styles/css_sidebar.css">
-
     <link rel="stylesheet" href="../utility/styles/detali_indicator.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <script src="https://code.jquery.com/jquery-3.4.1.js%22%3E"></script>
-    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
-</head>
+
 
 <body>
 

@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../utility/theme.css">
+<<<<<<< HEAD
     <!-- <link rel="stylesheet" href="../utility/bootstrap5/css/bootstrap.min.css"> -->
     <link rel="stylesheet" href="../utility/styles/css_sidebar.css">
 
@@ -18,6 +19,15 @@
 </head>
 <style>
 .home-section {
+=======
+    <link rel="stylesheet" href="../utility/bootstrap5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../utility/styles/insert_indicator_style.css">
+
+
+</head>
+<style>
+body {
+>>>>>>> main
     height: 100vh;
 }
 </style>
