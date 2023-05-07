@@ -28,6 +28,7 @@
 
 .box-data-body {
     padding-top: 20px;
+   
 }
 
 .insert-indicator {
@@ -36,7 +37,7 @@
     font-weight: 600;
     color: var(--blue-color);
     line-height: 130%;
-    position: absolute;
+    /* position: absolute; */
 }
 
 .name-indicator {
@@ -69,6 +70,18 @@
     border-radius: 5px;
     overflow: hidden;
 }
+
+.field2 {
+    padding: 0 10px 0 10px;
+    margin-left: var(--pm30px);
+    height: 26px;
+    width: 95%;
+    font-size: var(--paragraph);
+    color: #000000;
+    border: 1px solid #5B5B5B;
+    border-radius: 5px;
+}
+
 
 .line-checkbox {
     margin: 10px 0 0 30px;
