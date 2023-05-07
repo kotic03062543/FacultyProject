@@ -1,0 +1,253 @@
+:root {
+    /* colors */
+    --background-color: #ffffff;
+    --second-color: #540375;
+    --purple-low: rgba(229, 221, 247, 0.3);
+    --blue-color: #283747;
+    --Highlight-color: #FFBF00;
+    --Highlight-yellow: #F5E687;
+    --input-color: #A2A6AA;
+    /* font */
+    --font-family: 'IBM Plex Sans Thai', sans-serif;
+    --header1: 32px;
+    --header2: 24px;
+    --header3: 18px;
+    --paragraph: 16px;
+    --rd: 10px;
+    --pm10px: 10px;
+    --pm20px: 20px;
+    --pm30px: 30px;
+    --pm50px: 50px;
+    /* showdow */
+    --showdow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+/*=============================================== */
+/*============== หน้า เพิ่มข้อมูลตัวชี้วัด ============ */
+/*=============================================== */
+
+.box-data-body {
+    padding-top: 20px;
+}
+
+.insert-indicator {
+    margin-left: var(--pm30px);
+    font-size: var(--header1);
+    font-weight: 600;
+    color: var(--blue-color);
+    line-height: 130%;
+    position: absolute;
+}
+
+.name-indicator {
+    margin-top: 50px;
+}
+
+.unit {
+    padding-top: 15px;
+}
+
+.description {
+    padding-top: 15px;
+}
+
+.description textarea {
+    height: 70px;
+}
+
+.field {
+    padding: 0 10px 0 10px;
+    margin-left: var(--pm30px);
+    height: 26px;
+    left: 407px;
+    top: 173px;
+    width: 95%;
+    font-size: var(--paragraph);
+    line-height: 130%;
+    color: #000000;
+    border: 1px solid #5B5B5B;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.line-checkbox {
+    margin: 10px 0 0 30px;
+    border: 1px solid #5B5B5B;
+    border-radius: 5px;
+    width: 95%;
+    padding: 10px 0 10px 10px;
+}
+
+.checkbox-one-body {
+    padding-left: 40px;
+}
+
+.checkbox-two-body {
+    padding-left: 40px;
+}
+
+.checkbox-two {
+    margin-left: 91px;
+}
+
+.checkbox-four {
+    margin-left: 176px;
+}
+
+.name-group-indicator {
+    font-size: var(--paragraph);
+    font-weight: 600;
+    color: var(--blue-color);
+    line-height: 130%;
+}
+
+.light-one {
+    font-size: var(--paragraph);
+    font-weight: 600;
+    margin-left: var(--pm10px);
+}
+
+.light-two {
+    font-size: var(--paragraph);
+    font-weight: 600;
+    margin-left: var(--pm10px);
+}
+
+.light-three {
+    font-size: var(--paragraph);
+    font-weight: 600;
+    margin-left: var(--pm10px);
+}
+
+.light-four {
+    font-size: var(--paragraph);
+    font-weight: 600;
+    margin-left: var(--pm10px);
+}
+
+.status {
+    padding-top: 10px;
+    padding-left: 40px;
+    font-size: var(--paragraph);
+    font-weight: 600;
+    color: var(--blue-color);
+    display: inline-block;
+}
+
+.status-label {
+    margin-right: 10px;
+}
+
+.status-toggle {
+    display: inline-block;
+    margin-top: 50px;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: grey;
+    transition: .4s;
+    border-radius: 34px;
+}
+
+.textshow {
+    position: absolute;
+    top: -5px;
+    left: 30px;
+    margin: 5px;
+    display: none;
+}
+
+.texthide {
+    position: absolute;
+    top: -5px;
+    left: 30px;
+    margin: 5px;
+    display: block;
+}
+
+.switch input {
+    display: none;
+}
+
+.slider::before {
+    position: absolute;
+    content: "";
+    height: 10px;
+    width: 10px;
+    left: 5px;
+    bottom: 5px;
+    background-color: white;
+    transition: 0.4s;
+    border-radius: 50px;
+}
+
+input:checked+.slider {
+    background-color: green;
+}
+
+input:checked+.slider::before {
+    transform: translateX(10px)
+}
+
+.btn-body {
+    padding-right: 50px;
+}
+
+.btn-one {
+    margin-right: 20px;
+    display: inline-flex;
+    width: 68px;
+    height: 25px;
+    background: #283747;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+}
+
+.btn-two {
+    display: inline-flex;
+    width: 68px;
+    height: 25px;
+    background: #283747;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+}
+
+.btn-one:hover,
+.btn-two:hover {
+    background: #1c2c3d;
+}
+
+.btn-one:active,
+.btn-two:active {
+    background: #172533;
+}
+
+.text-cancel,
+.text-save {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 11px;
+    color: white;
+    height: 100%;
+}
