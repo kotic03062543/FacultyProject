@@ -26,8 +26,8 @@
 
 <body>
 
-    <?php
-    include "../share_templetes/sidebar.php";
+<?php
+    include  "../share_templates/sidebar.php"
     ?>
 
 
