@@ -70,6 +70,9 @@
     border-radius: 5px;
     overflow: hidden;
 }
+.field3{
+    margin-left: var(--pm30px);
+}
 
 .field2 {
     padding: 0 10px 0 10px;
@@ -82,7 +85,7 @@
     border-radius: 5px;
 }
 
-
+  
 .line-checkbox {
     margin: 10px 0 0 30px;
     border: 1px solid #5B5B5B;
@@ -100,6 +103,12 @@
 }
 
 .checkbox-two {
+    margin-left: 91px;
+}
+.checkbox-three {
+    margin-left: 91px;
+}
+.checkbox-six{
     margin-left: 91px;
 }
 
