@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="../utility/bootstrap5/css/bootstrap.min.css">
     <link rel="stylesheet" href="../utility/styles/insert_result_style.css">
     <link rel="stylesheet" href="insert_result_style.css">
-  
 
 </head>
 <style>
@@ -56,7 +55,7 @@
         <div class="unit d-flex flex-row field3 mt-3 border-0">
             <p class="name-evidence-file ms-1 fw-bold">ไฟล์หลักฐานแนบ:</p>
             <input class="ms-2" type="file" id="file-input" name="unit">
-            <label for="file-input">เลือกไฟล์...</label>
+            <label for="file-input">เลือกไฟล์</label>
         </div>
 
 
