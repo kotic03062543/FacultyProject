@@ -9,9 +9,18 @@
     <link rel="stylesheet" href="../utility/theme.css">
     <link rel="stylesheet" href="../utility/bootstrap5/css/bootstrap.min.css">
     <link rel="stylesheet" href="../utility/styles/insert_result_style.css">
+    <link rel="stylesheet" href="insert_result_style.css">
+  
 
 </head>
+<style>
+      body {
+        height: 100vh;
+       
+      
+    }
 
+</style>
 <body>
 
     <?php
