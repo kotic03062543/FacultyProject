@@ -8,14 +8,14 @@
     <title>Document</title>
     <link rel="stylesheet" href="../utility/theme.css">
     <link rel="stylesheet" href="../utility/bootstrap5/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../utility/styles/detali_indicator.css">
+    <link rel="stylesheet" href="../utility/styles/detail_indicator.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
 
 
 <body>
 
-<?php
-    include  "../share_templates/sidebar.php"
+    <?php
+    include "../share_templates/sidebar.php";
     ?>
 
 
@@ -23,7 +23,7 @@
 
     <div class="container-fluid pb-2 ">
         <div class="home_content">
-            <div class="mt-4 ms-5 fs-2 me-4   ">
+            <div class="mt-4 ms-5 fs-2 me-4">
                 <p>ข้อมูลและตัวชี้วัด</p>
             </div>
             <div class="mt-4 ms-5  me-1  ps-4 pt-3 border border-dark h-100  section1 border-2  ">
