@@ -21,7 +21,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: var(--font-family);
-
 }
 
 .sidebar {
@@ -59,7 +58,6 @@
     transition-delay: 0.1s;
     transition: 0.3s ease;
     margin-left: 10px;
-
 }
 
 .sidebar.close .logo-details .logo_name {
@@ -207,8 +205,6 @@
     padding: 3px 20px 6px 16px;
     opacity: 0;
     pointer-events: none;
-
-
 }
 
 .sidebar .nav-links li:hover .sub-menu.blank {

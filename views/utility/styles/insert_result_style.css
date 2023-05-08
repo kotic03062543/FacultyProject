@@ -178,3 +178,25 @@
     height: 100%;
     font-weight: 550;
 }
+
+input#file-input {
+    display: none;
+    padding-top: 20px;
+}
+
+input#file-input + label {
+    background-color: #D9D9D9;
+    padding: 8px;
+    color: #A2A6AA;
+    border: 2px solid #9ec3ff;
+    border-radius: 5px;
+    margin-left: 20px;
+    height: 100%;
+    font-weight: 600;
+}
+
+input#file-input + label:hover {
+    background-color: #cccccc;
+    border-color: #A2A6AA;
+    cursor: pointer;
+}

@@ -15,7 +15,6 @@
     body {
         height: 100vh;
     }
-
 </style>
 
 <body>
@@ -51,11 +50,10 @@
             </div>
         </div>
 
-        <div class="d-flex flex-row align-items-center">
+        <div class="unit d-flex flex-row field3 mt-3 border-0">
             <p class="name-evidence-file ms-1 fw-bold">ไฟล์หลักฐานแนบ:</p>
-            <button class="btn-select-file ms-2" type="button">
-                <label class="text-select-file">เลือกไฟล์</label>
-            </button>
+            <input class="ms-2" type="file" id="file-input" name="unit">
+            <label for="file-input">เลือกไฟล์...</label>
         </div>
 
 
