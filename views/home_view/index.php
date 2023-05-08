@@ -51,7 +51,8 @@
                     </li>
                 </ul>
                 <!-- ปุ่มเข้าสู่ระบบ -->
-                <a class="ms-auto" href="../auth/login_form.php"><button type="button" class="btn btn-login">ลงชื่อเข้าใช้</button></a>
+                <a class="ms-auto" href="../auth/login_form.php"><button type="button"
+                        class="btn btn-login">ลงชื่อเข้าใช้</button></a>
             </div>
         </div>
     </nav>
@@ -233,7 +234,7 @@
     <div class="bg-cnlernning" id="community">
         <div class="d-flex justify-content-between container mt-3">
             <h2 class="text-menusix">ข่าวประชาสัมพันธ์</h2>
-            
+
             <div class="my-auto">
                 <button class="btn btn-name">
                     อ่านเพิ่มเติม
