@@ -11,6 +11,12 @@
     <link rel="stylesheet" href="../utility/styles/insert_result_style.css">
 
 </head>
+<style>
+    body {
+        height: 100vh;
+    }
+
+</style>
 
 <body>
 
