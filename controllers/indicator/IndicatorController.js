@@ -5,13 +5,12 @@ async function loadIndicators() {
         const response = await fetch('../../models/indicator/IndicatorModel.php');
         const data = await response.json();
         if (data.length > 0) {
-            data.forEach((indicator, index) => {
+            data.forEach((indicator) => {
                 const row = document.createElement('tr');
                 row.innerHTML = `
                     <td>${indicator.id}</td>
                     <td>${indicator.name}</td>
                     <td><a href="../../views/slide_view/detail_indicator.php?id=${indicator.id}">กด</a></td>
-
                 `;
                 tableBody.appendChild(row);
             });

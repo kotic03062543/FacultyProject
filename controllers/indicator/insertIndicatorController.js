@@ -7,7 +7,6 @@ loginForm.addEventListener('submit', async function (event) {
     const unit = document.querySelector('#unit').value;
     const description = document.querySelector('#description').value;
 
-
     try {
         const response = await fetch('../../models/indicator/insert-indicatorModel.php', {
             method: 'POST',
