@@ -72,7 +72,7 @@ input[type="radio"]:checked+label {
 
 input[type="radio"]:checked+label>.notification {
     background-color: #fff;
-    color: #fff;
+    color: black;
 }
 
 .tab {
@@ -84,7 +84,7 @@ input[type="radio"]:checked+label>.notification {
     font-size: var(--paragraph);
     font-weight: 700;
     border-radius: 8px;
-    border: solid 2px #283747;
+   
     cursor: pointer;
     transition: color 0.15s ease-in;
     margin-right: 10px;
@@ -99,7 +99,7 @@ input[id="radio-2"]:checked~.glider {
 }
 
 input[id="radio-3"]:checked~.glider {
-    transform: translateX(208%);
+    transform: translateX(207%);
 }
 
 .glider {
@@ -157,48 +157,39 @@ input[id="radio-3"]:checked~.glider {
     padding-top: 15px;
 }
 
-.btn-one {
-    margin-right: 20px;
-    display: inline-flex;
+input[type=submit],
+input[type=reset] {
+    background-color: #283747;
     width: 68px;
     height: 25px;
-    background: #283747;
     border: none;
-    outline: none;
     border-radius: 5px;
-    overflow: hidden;
+    text-decoration: none;
+    font-weight: 500;
+    color: white;
+    padding: 10px 10px;
+    margin: 10px 10px;
     cursor: pointer;
-    position: relative;
-}
-
-.btn-two {
-    display: inline-flex;
-    width: 68px;
-    height: 25px;
-    background: #283747;
-    border: none;
-    outline: none;
-    border-radius: 5px;
-    overflow: hidden;
-    cursor: pointer;
-    position: relative;
-}
-
-.btn-one:hover,
-.btn-two:hover {
-    background: #111c27;
-}
-
-.btn-one:active,
-.btn-two:active {
-    background: #0f1a24;
-}
-
-.text-cancel,
-.text-save {
     display: inline-flex;
     align-items: center;
-    padding: 0 11px;
+    padding: 0 14px;
     color: white;
     height: 100%;
+}
+
+input[type=submit]:hover,
+input[type=reset]:hover {
+    background-color: #111c27;
+}
+
+input[type=submit]:active,
+input[type=reset]:active {
+    background-color: #0f1a24;
+}
+a{
+    text-decoration: none;
+    color: rgb(153, 140, 140);
+}
+a:hover{
+    color: black;
 }
