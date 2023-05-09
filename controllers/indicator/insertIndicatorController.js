@@ -1,31 +1,31 @@
-const form = document.querySelector('#form-insert-indicator');
-form.addEventListener('submit', async (e) => {
-    e.preventDefault();
+const loginForm = document.querySelector('#form-insert-indicator');
+
+loginForm.addEventListener('submit', async function (event) {
+    event.preventDefault();
+
     const name = document.querySelector('#name').value;
     const unit = document.querySelector('#unit').value;
     const description = document.querySelector('#description').value;
-    const data = {
-        name, unit, description
-    };
+
+
     try {
         const response = await fetch('../../models/indicator/insert-indicatorModel.php', {
             method: 'POST',
-            body: JSON.stringify(data),
             headers: {
-                'Content-Type': 'application/json'
-            }
+                'Content-Type': 'application/x-www-form-urlencoded',
+            },
+            body: `name=${name}&unit=${unit}&description=${description}`
         });
-        const rs = await response.json();
-        if (rs.success) {
-            alert('บันทึกข้อมูลสำเร็จ');
-            window.location.href = '../indicator/indicator.php';
+        const data = await response.json();
+        if (data.success) {
+            // เข้าสู่ระบบสำเร็จ
+            alert('เพิ่มตัวชี้วัดสำเร็จ');
+            window.open('../../views/slide_view/insert_indicator.php', '_self');
+        } else {
+            // ไม่สำเร็จ
+            alert(data.message);
         }
-        else {
-            alert(rs.message);
-        }
-    }
-    catch (error) {
+    } catch (error) {
         console.log(error);
     }
-
 });

@@ -9,8 +9,9 @@ async function loadIndicators() {
                 const row = document.createElement('tr');
                 row.innerHTML = `
                     <td>${indicator.id}</td>
-                    <td>${indicator.lname}</td>
-                    <td class="text-center"><i class="fas fa-search icon"></i></td>
+                    <td>${indicator.name}</td>
+                    <td><a href="../../views/slide_view/detail_indicator.php?id=${indicator.id}">กด</a></td>
+
                 `;
                 tableBody.appendChild(row);
             });
