@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="../utility/theme.css">
     <link rel="stylesheet" href="../utility/bootstrap5/css/bootstrap.min.css">
     <link rel="stylesheet" href="../utility/styles/insert_indicator_style.css">
-    <link rel="stylesheet" href="../utility/styles/detali_indicator.css">
+    <link rel="stylesheet" href="../utility/styles/detail_indicator.css">
 
 
 </head>
@@ -17,23 +17,24 @@
     body {
         height: 100vh;
     }
+
     @media only screen and (max-width: 700px) {
-  body {
-    height: 100%;
-  }
-}
+        body {
+            height: 100%;
+        }
+    }
 </style>
 
 <body>
 
-<?php
-    include  "../share_templates/sidebar.php"
+    <?php
+    include "../share_templates/sidebar.php";
     ?>
 
 
     <div class="box-data-body">
         <div class="home_content">
-            <div class="insert-indicator">เพิ่มรายละเอียดตัวชี้วัด</div>
+            <div class="insert-indicator">แก้ไขตัวรายละเอียดชี้วัด</div>
         </div>
         <form action="">
             <div class="input-data-body ">
@@ -58,7 +59,8 @@
                     <input class="field" type="text" id="unit" name="unit" placeholder="หน่วยวัด:">
                 </div>
                 <div class="description">
-                    <textarea class="field" type="text" id="description" name="description" placeholder="คำอธิบาย:"></textarea>
+                    <textarea class="field" type="text" id="description" name="description"
+                        placeholder="คำอธิบาย:"></textarea>
                 </div>
                 <div class="unit">
                     <input class="field" type="text" id="unit" name="unit" placeholder="หน่วยวัด:">
@@ -73,15 +75,28 @@
                                 กลุ่มของตัวชี้วัด:
                             </div>
                             <div class="checkbox-one-body">
-                                <input class="checkbox-one" type="checkbox" id="learning-management" value="" name="learning-management"><label class="light-one" for="ด้านการจัดการเรียนรู้">ด้านการจัดการเรียนรู้</label>
-                                <input class="checkbox-two" type="checkbox" id="academic-service" value="" name="academic-service"><label class="light-two" for="ด้านบริการวิชาการ">ด้านบริการวิชาการ</label>
-                                <input class="checkbox-three " type="checkbox" id="learning-management" value="" name="learning-management"><label class="light-one" for="ด้านการจัดการเรียนรู้">ด้านการจัดการเรียนรู้</label>
-                                <input class="checkbox-three" type="checkbox" id="academic-service" value="" name="academic-service"><label class="light-two" for="ด้านบริการวิชาการ">ด้านบริการวิชาการ</label>
+                                <input class="checkbox-one" type="checkbox" id="learning-management" value=""
+                                    name="learning-management"><label class="light-one"
+                                    for="ด้านการจัดการเรียนรู้">ด้านการจัดการเรียนรู้</label>
+                                <input class="checkbox-two" type="checkbox" id="academic-service" value=""
+                                    name="academic-service"><label class="light-two"
+                                    for="ด้านบริการวิชาการ">ด้านบริการวิชาการ</label>
+                                <input class="checkbox-three " type="checkbox" id="learning-management" value=""
+                                    name="learning-management"><label class="light-one"
+                                    for="ด้านการจัดการเรียนรู้">ด้านการจัดการเรียนรู้</label>
+                                <input class="checkbox-three" type="checkbox" id="academic-service" value=""
+                                    name="academic-service"><label class="light-two"
+                                    for="ด้านบริการวิชาการ">ด้านบริการวิชาการ</label>
                             </div>
                             <div class="checkbox-two-body">
-                                <input class="checkbox-one" type="checkbox" id="research" value="" name="research"><label class="light-three" for="ด้านวิจัย">ด้านวิจัย</label>
-                                <input class="checkbox-four" type="checkbox" id="management-communication" value="" name="management-communication"><label class="light-four" for="ด้านบริหารจัดการและการสื่อสาร">ด้านบริหารจัดการและการสื่อสาร</label>
-                                <input class="checkbox-one" type="checkbox" id="management-communication" value="" name="management-communication"><label class="light-four" for="ด้านบริหารจัดการและการสื่อสาร">ด้านบริหารจัดการและการสื่อสาร</label>
+                                <input class="checkbox-one" type="checkbox" id="research" value=""
+                                    name="research"><label class="light-three" for="ด้านวิจัย">ด้านวิจัย</label>
+                                <input class="checkbox-four" type="checkbox" id="management-communication" value=""
+                                    name="management-communication"><label class="light-four"
+                                    for="ด้านบริหารจัดการและการสื่อสาร">ด้านบริหารจัดการและการสื่อสาร</label>
+                                <input class="checkbox-one" type="checkbox" id="management-communication" value=""
+                                    name="management-communication"><label class="light-four"
+                                    for="ด้านบริหารจัดการและการสื่อสาร">ด้านบริหารจัดการและการสื่อสาร</label>
                             </div>
                         </div>
                     </div>
@@ -114,7 +129,7 @@
                 </div>
                 <div class="unit d-flex field3 mt-3 border-0">
                     <p>ไฟล์หลักฐานแนบ : </p>
-                    <input class="ms-2" type="file" id="unit" name="unit" >
+                    <input class="ms-2" type="file" id="unit" name="unit">
                 </div>
 
 

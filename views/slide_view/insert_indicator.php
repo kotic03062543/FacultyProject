@@ -20,7 +20,7 @@
 <body>
 
     <?php
-    include "../share_templetes/sidebar.php";
+    include "../share_templates/sidebar.php";
     ?>
 
 
@@ -43,6 +43,7 @@
                 </div>
             </div>
 
+<<<<<<< HEAD
 
             <div class="group-indicator-body">
                 <div class="line-checkbox">
@@ -63,10 +64,24 @@
                         <input class="checkbox-four" type="checkbox" id="management-communication" value=""
                             name="management-communication"><label class="light-four"
                             for="ด้านบริหารจัดการและการสื่อสาร">ด้านบริหารจัดการและการสื่อสาร</label>
+=======
+        <div class="status">
+            <div class="col-md-10 col-lg-6 col-xl-12">
+                <div class="d-flex flex-row align-items-center mb-4">
+                    <p class="name-status mt-3 ms-1 fw-bold">สถานะ (active):</p>
+                    <div class=" flex-fill mt-1 mb-0 ms-2 me-3">
+                        <label class="switch">
+                            <input type="checkbox" onchange="toggleText()">
+                            <span class="slider"></span>
+                            <span class="textshow">Active</span>
+                            <span class="texthide">Inactive</span>
+                        </label>
+>>>>>>> main
                     </div>
                 </div>
             </div>
 
+<<<<<<< HEAD
             <div class="status">
                 <div class=" col-md-10 col-lg-6 col-xl-12">
                     <div class="d-flex flex-row align-items-center mb-4">
@@ -82,6 +97,16 @@
                     </div>
                 </div>
             </div>
+=======
+        <div class="btn-body text-end me-5">
+            <button class="btn-one" type="button">
+                <label class="text-cancel">ยกเลิก</label>
+            </button>
+            <button class="btn-two" type="button">
+                <label class="text-save">บันทึก</label>
+            </button>
+        </div>
+>>>>>>> main
 
     </div>
     <div class="btn-body text-end">

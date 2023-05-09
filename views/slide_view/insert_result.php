@@ -9,74 +9,57 @@
     <link rel="stylesheet" href="../utility/theme.css">
     <link rel="stylesheet" href="../utility/bootstrap5/css/bootstrap.min.css">
     <link rel="stylesheet" href="../utility/styles/insert_result_style.css">
+    <link rel="stylesheet" href="insert_result_style.css">
 
 </head>
+<style>
+    body {
+        height: 100vh;
+    }
+</style>
 
+</style>
 <body>
 
     <?php
-    include "../share_templetes/sidebar.php";
+    include "../share_templates/sidebar.php";
     ?>
 
 
     <div class="box-data-body">
         <div class="home_content">
-            <div class="insert-indicator">เพิ่มตัวชี้วัด</div>
+            <div class="insert-results">เพิ่มผลลัพธ์</div>
         </div>
 
-        <div class="input-data-body">
-            <div class="name-indicator">
-                <input class="field" type="text" id="name" name="name" placeholder="ชื่อข้อมูล/ตัวชี้วัด:">
+        <div class="input-result-body">
+            <div class="select-indicator">
+                <input class="field-one" type="text" id="select" name="select" placeholder="เลือกตัวชี้ตัวชี้วัด:">
+                <button class="btn-select text-end mt-3" type="button">
+                    <label class="text-select">เลือก</label>
+                </button>
             </div>
-            <div class="unit">
-                <input class="field" type="text" id="unit" name="unit" placeholder="หน่วยวัด:">
+            <div class="years">
+                <input class="field" type="text" id="years" name="years" placeholder="ประจำปี:">
             </div>
-            <div class="description">
-                <textarea class="field" type="text" id="description" name="description"
-                    placeholder="คำอธิบาย:"></textarea>
+            <div class="target">
+                <input class="field" type="text" id="target" name="target" placeholder="เป้า(หน่วยวัด):">
             </div>
-        </div>
-
-        <div class="group-indicator-body">
-            <div class="line-checkbox">
-                <div class="name-group-indicator">
-                    กลุ่มของตัวชี้วัด:
-                </div>
-                <div class="checkbox-one-body">
-                    <input class="checkbox-one" type="checkbox" id="learning-management" value=""
-                        name="learning-management"><label class="light-one"
-                        for="ด้านการจัดการเรียนรู้">ด้านการจัดการเรียนรู้</label>
-                    <input class="checkbox-two" type="checkbox" id="academic-service" value=""
-                        name="academic-service"><label class="light-two"
-                        for="ด้านบริการวิชาการ">ด้านบริการวิชาการ</label>
-                </div>
-                <div class="checkbox-two-body">
-                    <input class="checkbox-three" type="checkbox" id="research" value="" name="research"><label
-                        class="light-three" for="ด้านวิจัย">ด้านวิจัย</label>
-                    <input class="checkbox-four" type="checkbox" id="management-communication" value=""
-                        name="management-communication"><label class="light-four"
-                        for="ด้านบริหารจัดการและการสื่อสาร">ด้านบริหารจัดการและการสื่อสาร</label>
-                </div>
+            <div class="results">
+                <input class="field" type="text" id="results" name="results" placeholder="ผลลัพธ์:">
+            </div>
+            <div class="evidence">
+                <input class="field" type="text" id="evidence" name="evidence" placeholder="หลักฐานที่มา:">
             </div>
         </div>
 
-        <div class="status">
-            <div class=" col-md-10 col-lg-6 col-xl-12">
-                <div class="d-flex flex-row align-items-center mb-4">
-                    <p class="mt-3 ms-1  fw-bold">สถานะ (active):</p>
-                    <div class=" flex-fill mt-1 mb-0 ms-2 me-3">
-                        <label class="switch">
-                            <input type="checkbox" onchange="toggleText()">
-                            <span class="slider"></span>
-                            <span class="textshow">Active</span>
-                            <span class="texthide">Inactive</span>
-                        </label>
-                    </div>
-                </div>
-            </div>
+        <div class="unit d-flex flex-row field3 mt-3 border-0">
+            <p class="name-evidence-file ms-1 fw-bold">ไฟล์หลักฐานแนบ:</p>
+            <input class="ms-2" type="file" id="file-input" name="unit">
+            <label for="file-input">เลือกไฟล์</label>
         </div>
 
-        <div class="btn-body text-end">
+
+        <div class="btn-body text-end pe-5 mt-3">
             <button class="btn-one" type="button">
                 <label class="text-cancel">ยกเลิก</label>
             </button>

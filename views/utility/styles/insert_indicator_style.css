@@ -23,10 +23,11 @@
 }
 
 /*=============================================== */
-/*============== หน้า เพิ่มข้อมูลตัวชี้วัด ============ */
+/*============== หน้าเพิ่มข้อมูลตัวชี้วัด ============ */
 /*=============================================== */
 
 .box-data-body {
+    
     padding-top: 20px;
    
 }
@@ -57,6 +58,7 @@
 }
 
 .field {
+    font-weight: 600;
     padding: 0 10px 0 10px;
     margin-left: var(--pm30px);
     height: 26px;
@@ -70,6 +72,9 @@
     border-radius: 5px;
     overflow: hidden;
 }
+.field3{
+    margin-left: var(--pm30px);
+}
 
 .field2 {
     padding: 0 10px 0 10px;
@@ -82,7 +87,7 @@
     border-radius: 5px;
 }
 
-
+  
 .line-checkbox {
     margin: 10px 0 0 30px;
     border: 1px solid #5B5B5B;
@@ -102,9 +107,21 @@
 .checkbox-two {
     margin-left: 91px;
 }
+.checkbox-three {
+    margin-left: 91px;
+}
+.checkbox-six{
+    margin-left: 91px;
+}
 
 .checkbox-four {
     margin-left: 176px;
+}
+.name-status {
+    font-size: var(--paragraph);
+    font-weight: 600;
+    color: var(--blue-color);
+    line-height: 130%;
 }
 
 .name-group-indicator {
@@ -114,24 +131,9 @@
     line-height: 130%;
 }
 
-.light-one {
-    font-size: var(--paragraph);
-    font-weight: 600;
-    margin-left: var(--pm10px);
-}
-
-.light-two {
-    font-size: var(--paragraph);
-    font-weight: 600;
-    margin-left: var(--pm10px);
-}
-
-.light-three {
-    font-size: var(--paragraph);
-    font-weight: 600;
-    margin-left: var(--pm10px);
-}
-
+.light-one,
+.light-two,
+.light-three,
 .light-four {
     font-size: var(--paragraph);
     font-weight: 600;
