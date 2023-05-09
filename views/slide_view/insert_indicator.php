@@ -13,10 +13,9 @@
 
 </head>
 <style>
-body {
-    height: 100vh;
-}
-
+    body {
+        height: 100vh;
+    }
 </style>
 
 <body>
@@ -33,21 +32,21 @@ body {
 
         <div class="input-data-body">
             <div class="name-indicator">
-                <input class="field" type="text" id="name" name="name" placeholder="ชื่อข้อมูล/ตัวชี้วัด:">
+                <input class="field" type="text" id="name" name="name" placeholder="ชื่อข้อมูล/ตัวชี้วัด :">
             </div>
             <div class="unit">
-                <input class="field" type="text" id="unit" name="unit" placeholder="หน่วยวัด:">
+                <input class="field" type="text" id="unit" name="unit" placeholder="หน่วยวัด :">
             </div>
             <div class="description">
                 <textarea class="field" type="text" id="description" name="description"
-                    placeholder="คำอธิบาย:"></textarea>
+                    placeholder="คำอธิบาย :"></textarea>
             </div>
         </div>
 
         <div class="group-indicator-body">
             <div class="line-checkbox">
                 <div class="name-group-indicator">
-                    กลุ่มของตัวชี้วัด:
+                    กลุ่มของตัวชี้วัด :
                 </div>
                 <div class="checkbox-one-body">
                     <input class="checkbox-one" type="checkbox" id="learning-management" value=""
@@ -91,7 +90,6 @@ body {
                 <label class="text-save">บันทึก</label>
             </button>
         </div>
-
     </div>
 
 
