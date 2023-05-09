@@ -41,7 +41,7 @@
                                 <p class="mt-3 ms-1  fw-bold">ชื่อข้อมูล/ตัวชี้วัด:</p>
                                 <div class=" flex-fill mb-0 ms-3 me-3">
                                     <input type="text" id="unit" class="form-control shadow  " placeholder="ชื่อข้อมูล"
-                                        name="project_name" id="project_name" required style="border-radius: 15px;" />
+                                        name="unit" required style="border-radius: 15px;" />
                                 </div>
                             </div>
                         </div>
