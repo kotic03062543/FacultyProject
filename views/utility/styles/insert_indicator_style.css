@@ -27,9 +27,7 @@
 /*=============================================== */
 
 .box-data-body {
-    
     padding-top: 20px;
-   
 }
 .field-one {
     font-weight: 600;
@@ -73,14 +71,11 @@
     /* position: absolute; */
 }
 
-.name-indicator {
-    margin-top: 50px;
+.input-data-body {
+    margin-top: 9px;
 }
 
-.unit {
-    padding-top: 15px;
-}
-
+.unit,
 .description {
     padding-top: 15px;
 }
@@ -104,7 +99,8 @@
     border-radius: 5px;
     overflow: hidden;
 }
-.field3{
+
+.field3 {
     margin-left: var(--pm30px);
 }
 
@@ -119,7 +115,6 @@
     border-radius: 5px;
 }
 
-  
 .line-checkbox {
     margin: 10px 0 0 30px;
     border: 1px solid #5B5B5B;
@@ -128,27 +123,20 @@
     padding: 10px 0 10px 10px;
 }
 
-.checkbox-one-body {
-    padding-left: 40px;
-}
-
+.checkbox-one-body,
 .checkbox-two-body {
     padding-left: 40px;
 }
 
 .checkbox-two {
-    margin-left: 91px;
-}
-.checkbox-three {
-    margin-left: 91px;
-}
-.checkbox-six{
-    margin-left: 91px;
+    margin-left: 50px;
 }
 
+
 .checkbox-four {
-    margin-left: 176px;
+    margin-left: 136px;
 }
+
 .name-status {
     font-size: var(--paragraph);
     font-weight: 600;

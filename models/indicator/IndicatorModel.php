@@ -2,7 +2,7 @@
 
 require_once "../../config.php";
 
-$stmt = $conn->prepare("SELECT * FROM user");
+$stmt = $conn->prepare("SELECT * FROM indicator");
 $stmt->execute();
 $indicators = $stmt->fetchAll(PDO::FETCH_ASSOC);
 

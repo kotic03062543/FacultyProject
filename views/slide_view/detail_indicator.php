@@ -127,7 +127,6 @@
                                     <li><input type="checkbox" id="checkboxSix" value="Twilight Sparkle" checked><label for="checkboxSix">CHE-QA/AUN-QA
                                         </label></li>
                                     <li><input type="checkbox" id="checkboxSeven" value="Fluttershy"><label for="checkboxSeven">ข้อมูลพื่นฐาน</label></li>
-
                                 </ul>
 
                             </div>
