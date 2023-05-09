@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../utility/bootstrap5/css/bootstrap.min.css">
     <link rel="stylesheet" href="../utility/styles/insert_indicator_style.css">
     <link rel="stylesheet" href="../utility/styles/detail_indicator.css">
+    
 
 
 </head>
@@ -38,6 +39,7 @@
         </div>
         <form action="">
             <div class="input-data-body ">
+    
                 <div>
                     <select name="orderby" class="orderby field2 name-indicator">
                         <option value="menu_order" selected="selected">Default sorting</option>
@@ -49,6 +51,12 @@
                     </select>
                     <input type="hidden" name="paged" value="1">
                 </div>
+                <div class="select-indicator">
+                <input class="field-one" type="text" id="select" name="select" placeholder="เลือกตัวชี้ตัวชี้วัด:">
+                <button class="btn-select text-end mt-3" type="button">
+                    <label class="text-select">เลือก</label>
+                </button>
+            </div>
 
                 <div class="unit">
                     <input class="field" type="text" id="name" name="name" placeholder="ชื่อข้อมูล/ตัวชี้วัด:">

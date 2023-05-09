@@ -29,6 +29,38 @@
 .box-data-body {
     padding-top: 20px;
 }
+.field-one {
+    font-weight: 600;
+    padding: 0 10px 0 10px;
+    margin-left: var(--pm30px);
+    height: 26px;
+    left: 407px;
+    top: 173px;
+    width: 90%;
+    font-size: var(--paragraph);
+    line-height: 130%;
+    color: #000000;
+    border: 1px solid #5B5B5B;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.text-select {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 14px;
+    color: rgb(0, 0, 0);
+    height: 100%;
+}
+
+.text-select-file {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 14px;
+    color: #A2A6AA;
+    height: 100%;
+    font-weight: 550;
+}
 
 .insert-indicator {
     margin-left: var(--pm30px);
