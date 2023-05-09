@@ -33,27 +33,27 @@
 
         <div class="input-result-body">
             <div class="select-indicator">
-                <input class="field-one" type="text" id="select" name="select" placeholder="เลือกตัวชี้ตัวชี้วัด:">
+                <input class="field-one" type="text" id="select" name="select" placeholder="เลือกตัวชี้ตัวชี้วัด :">
                 <button class="btn-select text-end mt-3" type="button">
                     <label class="text-select">เลือก</label>
                 </button>
             </div>
             <div class="years">
-                <input class="field" type="text" id="years" name="years" placeholder="ประจำปี:">
+                <input class="field" type="text" id="years" name="years" placeholder="ประจำปี :">
             </div>
             <div class="target">
-                <input class="field" type="text" id="target" name="target" placeholder="เป้า(หน่วยวัด):">
+                <input class="field" type="text" id="target" name="target" placeholder="เป้า(หน่วยวัด) :">
             </div>
             <div class="results">
-                <input class="field" type="text" id="results" name="results" placeholder="ผลลัพธ์:">
+                <input class="field" type="text" id="results" name="results" placeholder="ผลลัพธ์ :">
             </div>
             <div class="evidence">
-                <input class="field" type="text" id="evidence" name="evidence" placeholder="หลักฐานที่มา:">
+                <input class="field" type="text" id="evidence" name="evidence" placeholder="หลักฐานที่มา :">
             </div>
         </div>
 
         <div class="unit d-flex flex-row field3 mt-3 border-0">
-            <p class="name-evidence-file ms-1 fw-bold">ไฟล์หลักฐานแนบ:</p>
+            <p class="name-evidence-file ms-1 fw-bold">ไฟล์หลักฐานแนบ :</p>
             <input class="ms-2" type="file" id="file-input" name="unit">
             <label for="file-input">เลือกไฟล์</label>
         </div>

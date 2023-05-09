@@ -16,6 +16,14 @@
         <!-- <script src="https://code.jquery.com/jquery-3.4.1.js%22%3E"></script> -->
         <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
 </head>
+<<<<<<< HEAD
+=======
+<style>
+    body {
+        height: 100vh;
+    }
+</style>
+>>>>>>> main
 
 <body>
 
@@ -29,10 +37,30 @@
             <div class="insert-indicator">เพิ่มตัวชี้วัด</div>
         </div>
 
+<<<<<<< HEAD
         <form id="form-insert-indicator">
             <div class="input-data-body">
                 <div class="name-indicator">
                     <input class="field" type="text" id="name" name="name" placeholder="ชื่อข้อมูล/ตัวชี้วัด:">
+=======
+        <div class="input-data-body">
+            <div class="name-indicator">
+                <input class="field" type="text" id="name" name="name" placeholder="ชื่อข้อมูล/ตัวชี้วัด :">
+            </div>
+            <div class="unit">
+                <input class="field" type="text" id="unit" name="unit" placeholder="หน่วยวัด :">
+            </div>
+            <div class="description">
+                <textarea class="field" type="text" id="description" name="description"
+                    placeholder="คำอธิบาย :"></textarea>
+            </div>
+        </div>
+
+        <div class="group-indicator-body">
+            <div class="line-checkbox">
+                <div class="name-group-indicator">
+                    กลุ่มของตัวชี้วัด :
+>>>>>>> main
                 </div>
                 <div class="unit">
                     <input class="field" type="text" id="unit" name="unit" placeholder="หน่วยวัด:">
@@ -106,8 +134,11 @@
                 <label class="text-save">บันทึก</label>
             </button>
         </div>
+<<<<<<< HEAD
 >>>>>>> main
 
+=======
+>>>>>>> main
     </div>
     <div class="btn-body text-end">
         <!-- <button class="btn-one" type="button">

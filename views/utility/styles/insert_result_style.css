@@ -27,7 +27,6 @@
 /*=============================================== */
 
 .box-data-body {
-   
     padding-top: 20px;
 }
 
@@ -40,8 +39,8 @@
     position: absolute;
 }
 
-.select-indicator {
-    margin-top: 50px;
+.input-result-body {
+    margin-top: 30px;
 }
 
 .years,

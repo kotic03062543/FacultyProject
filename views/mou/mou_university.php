@@ -26,7 +26,8 @@
     include "../share_templates/sidebar.php";
     ?>
 
-    <div class="container">
+
+    <div class="box-mou-body">
         <div class="tabs">
             <input type="radio" id="radio-1" name="tabs" checked />
             <label class="tab" for="radio-1">MOU ต่างประเทศ</label>
@@ -36,25 +37,36 @@
             <label class="tab" for="radio-3">MOU โรงเรียน</label>
             <span class="glider"></span>
         </div>
-    </div>
 
+        <div class="input-mou-body">
+            <div class="home-mou">
+                <div class="mou-university">MOU กับมหาวิทยาลัยต่างประเทศ</div>
+            </div>
 
+            <div class="input-mou-university">
+                <div class="name-university">
+                    <input class="field" type="text" id="name" name="name" placeholder="ชื่อมหาวิทยาลัยในต่างประเทศ">
+                </div>
+                <div class="country">
+                    <input class="field" type="text" id="country" name="country" placeholder="ประเทศ :">
+                </div>
+                <div class="date-write">
+                    <input class="field" type="text" id="date" name="date" placeholder="วันที่จด MOU">
+                </div>
+                <div class="expiration-date">
+                    <input class="field" type="text" id="expiration_date" name="expiration_date"
+                        placeholder="วันหมดอายุ :">
+                </div>
+            </div>
+        </div>
 
-    <div class="box-data-university">
-        <div class="mou_university">
-            MOU กับมหาวิทยาลัยต่างประเทศ
-        </div>
-        <div class="name_university">
-            <input class="field" type="text" id="name" name="name" placeholder="ชื่อมหาวิทยาลัยในต่างประเทศ">
-        </div>
-        <div class="country">
-            <input class="field" type="text" id="country" name="country" placeholder="ประเทศ:">
-        </div>
-        <div class="date_write">
-            <input class="field" type="text" id="date" name="date" placeholder="วันที่จด MOU">
-        </div>
-        <div class="expiration_date">
-            <input class="field" type="text" id="expiration_date" name="expiration_date" placeholder="วันหมดอายุ:">
+        <div class="btn-body text-end me-5 mt-4">
+            <button class="btn-one" type="button">
+                <label class="text-cancel">ยกเลิก</label>
+            </button>
+            <button class="btn-two" type="button">
+                <label class="text-save">บันทึก</label>
+            </button>
         </div>
     </div>
 
