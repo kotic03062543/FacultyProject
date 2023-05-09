@@ -99,7 +99,7 @@ input[id="radio-2"]:checked~.glider {
 }
 
 input[id="radio-3"]:checked~.glider {
-    transform: translateX(208%);
+    transform: translateX(207%);
 }
 
 .glider {

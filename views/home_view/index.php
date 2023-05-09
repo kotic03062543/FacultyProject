@@ -17,7 +17,7 @@
 </head>
 
 <body>
-    <h1>test</h1>
+
     <nav class="navbar navbar-expand-md navbar-light sticky-top">
         <div class="container-fluid">
             <!-- โลโก้ -->
