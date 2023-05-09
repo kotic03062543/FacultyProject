@@ -7,30 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../utility/theme.css">
-<<<<<<< HEAD
-    <!-- <link rel="stylesheet" href="../utility/bootstrap5/css/bootstrap.min.css"> -->
-    <link rel="stylesheet" href="../utility/styles/css_sidebar.css">
+    <<<<<<< HEAD <!-- <link rel="stylesheet" href="../utility/bootstrap5/css/bootstrap.min.css"> -->
+        <link rel="stylesheet" href="../utility/styles/css_sidebar.css">
 
-    <link rel="stylesheet" href="../utility/styles/insert_indicator_style.css">
+        <link rel="stylesheet" href="../utility/styles/insert_indicator_style.css">
 
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <!-- <script src="https://code.jquery.com/jquery-3.4.1.js%22%3E"></script> -->
-    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <!-- <script src="https://code.jquery.com/jquery-3.4.1.js%22%3E"></script> -->
+        <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
 </head>
-<style>
-.home-section {
-=======
-    <link rel="stylesheet" href="../utility/bootstrap5/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../utility/styles/insert_indicator_style.css">
-
-
-</head>
-<style>
-body {
->>>>>>> main
-    height: 100vh;
-}
-</style>
 
 <body>
 
@@ -57,64 +42,64 @@ body {
                         placeholder="คำอธิบาย:"></textarea>
                 </div>
             </div>
-            <div class="btn-body text-end">
-                <!-- <button class="btn-one" type="button">
-                    <label class="text-cancel">ยกเลิก</label>
-                </button> -->
-                <input type="submit" class="btn-one" value="บันทึก">
-                <button class="btn-two" type="submit">
-                    <label class="text-save">บันทึก</label>
-                </button>
-            </div>
-        </form>
 
-        <div class="group-indicator-body">
-            <div class="line-checkbox">
-                <div class="name-group-indicator">
-                    กลุ่มของตัวชี้วัด:
-                </div>
-                <div class="checkbox-one-body">
-                    <input class="checkbox-one" type="checkbox" id="learning-management" value=""
-                        name="learning-management"><label class="light-one"
-                        for="ด้านการจัดการเรียนรู้">ด้านการจัดการเรียนรู้</label>
-                    <input class="checkbox-two" type="checkbox" id="academic-service" value=""
-                        name="academic-service"><label class="light-two"
-                        for="ด้านบริการวิชาการ">ด้านบริการวิชาการ</label>
-                </div>
-                <div class="checkbox-two-body">
-                    <input class="checkbox-three" type="checkbox" id="research" value="" name="research"><label
-                        class="light-three" for="ด้านวิจัย">ด้านวิจัย</label>
-                    <input class="checkbox-four" type="checkbox" id="management-communication" value=""
-                        name="management-communication"><label class="light-four"
-                        for="ด้านบริหารจัดการและการสื่อสาร">ด้านบริหารจัดการและการสื่อสาร</label>
-                </div>
-            </div>
-        </div>
 
-        <div class="status">
-            <div class=" col-md-10 col-lg-6 col-xl-12">
-                <div class="d-flex flex-row align-items-center mb-4">
-                    <p class="mt-3 ms-1  fw-bold">สถานะ (active):</p>
-                    <div class=" flex-fill mt-1 mb-0 ms-2 me-3">
-                        <label class="switch">
-                            <input type="checkbox" onchange="toggleText()">
-                            <span class="slider"></span>
-                            <span class="textshow">Active</span>
-                            <span class="texthide">Inactive</span>
-                        </label>
+            <div class="group-indicator-body">
+                <div class="line-checkbox">
+                    <div class="name-group-indicator">
+                        กลุ่มของตัวชี้วัด:
+                    </div>
+                    <div class="checkbox-one-body">
+                        <input class="checkbox-one" type="checkbox" id="learning-management" value=""
+                            name="learning-management"><label class="light-one"
+                            for="ด้านการจัดการเรียนรู้">ด้านการจัดการเรียนรู้</label>
+                        <input class="checkbox-two" type="checkbox" id="academic-service" value=""
+                            name="academic-service"><label class="light-two"
+                            for="ด้านบริการวิชาการ">ด้านบริการวิชาการ</label>
+                    </div>
+                    <div class="checkbox-two-body">
+                        <input class="checkbox-three" type="checkbox" id="research" value="" name="research"><label
+                            class="light-three" for="ด้านวิจัย">ด้านวิจัย</label>
+                        <input class="checkbox-four" type="checkbox" id="management-communication" value=""
+                            name="management-communication"><label class="light-four"
+                            for="ด้านบริหารจัดการและการสื่อสาร">ด้านบริหารจัดการและการสื่อสาร</label>
                     </div>
                 </div>
             </div>
-        </div>
+
+            <div class="status">
+                <div class=" col-md-10 col-lg-6 col-xl-12">
+                    <div class="d-flex flex-row align-items-center mb-4">
+                        <p class="mt-3 ms-1  fw-bold">สถานะ (active):</p>
+                        <div class=" flex-fill mt-1 mb-0 ms-2 me-3">
+                            <label class="switch">
+                                <input type="checkbox" onchange="toggleText()">
+                                <span class="slider"></span>
+                                <span class="textshow">Active</span>
+                                <span class="texthide">Inactive</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
     </div>
-
+    <div class="btn-body text-end">
+        <!-- <button class="btn-one" type="button">
+                    <label class="text-cancel">ยกเลิก</label>
+                </button> -->
+        <input type="submit" class="btn-one" value="บันทึก">
+        <button class="btn-two" type="submit">
+            <label class="text-save">บันทึก</label>
+        </button>
+    </div>
+    </form>
 
     </section>
 
     <script src="../../controllers/indicator/insertIndicatorController.js"></script>
 
-    <!-- <script src="../utility/bootstrap5/js/bootstrap.min.js"></script> -->
+    <script src="../utility/bootstrap5/js/bootstrap.min.js"></script>
 
     <script>
     function toggleText() {
